@@ -7,7 +7,7 @@ Time spent: 10 hours in total
   - [ ] Summary: 
     - Vulnerability types:  Cross site scripting
     - Tested in version: 4.2
-    - Fixed in version: 4.7.3
+    - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: <img src='Week 7xss.gif'/>
   - [ ] Steps to recreate: 
  I logged into wordpress as admin.http://wpdistillery.vm/wp-admin
@@ -51,7 +51,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Sandy Keh]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
