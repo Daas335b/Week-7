@@ -15,6 +15,7 @@ Time spent: 10 hours in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   - [ ] Summary: 
+  
   2. - Vulnerability types:  SQL injection with a large file
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
