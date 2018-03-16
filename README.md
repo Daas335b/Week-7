@@ -15,20 +15,23 @@ Time spent: 10 hours in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   - [ ] Summary: 
-    - Vulnerability types:  SQL injection with a large file
+  2. - Vulnerability types:  SQL injection with a large file
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough: <img src='Largeuploadxss.gif'/>
   - [ ] Steps to recreate: I downloaded a large image file from the internet.  One that was more than 2mb. I changed the name of the file to what I wanted to inject.  I logged into wordpress as admin.http://wpdistillery.vm/wp-admin and went to the media page where I dragged my large file with the name <svg onload='alert(228)'>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+3. (Required) Vulnerability Name is Cross-Site Request Forgery (CSRF), CVE-2018-6389
+  - [ ] Summary: an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated
     - Vulnerability types:
     - Tested in version:4.2
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: [](my_gif_walkthrough_url)
-  - [ ] Steps to recreate: 
+    - Fixed in version: 4.7.3
+  - [ ] GIF Walkthrough: <img src='crecords.gif'/>
+  - [ ] Steps to recreate: Went to a site https://baraktawily.blogspot.fr/2018/02/how-to-dos-29-of-world-wide-websites.html to learn how to attack my WordPress site.
+ Used the doser.py to attack my WordPress and I put that file on my desktop in Linux.
+  I pasted a long script from the site onto the commandline in Linux but changed the script so that it pointed to my WordPress site.
+  Then I loaded the doser.py and went back to my script.  When I executed the script, I went to WordPress and I found that I couldn't manipulate the site anymore.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ## Assets
