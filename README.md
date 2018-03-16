@@ -22,7 +22,7 @@ Time spent: 10 hours in total
   - [ ] Steps to recreate: I downloaded a large image file from the internet.  One that was more than 2mb. I changed the name of the file to what I wanted to inject.  I logged into wordpress as admin.http://wpdistillery.vm/wp-admin and went to the media page where I dragged my large file with the name <svg onload='alert(228)'>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. (Required) Vulnerability Name is Cross-Site Request Forgery (CSRF), CVE-2018-6389
+3. (Required) Vulnerability Name is DOS, CVE-2018-6389
   - [ ] Summary: an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated
     - Vulnerability types:
     - Tested in version:4.2
