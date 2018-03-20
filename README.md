@@ -12,7 +12,7 @@ Time spent: 10 hours in total
   - [ ] Steps to recreate: 
  I logged into wordpress as admin.http://wpdistillery.vm/wp-admin
   I went to a page I created.  In the comment section I wrote the following xss <svg/onload-alert('XSS')
-  - [ ] Affected source code: CVE-2015-3440
+  - [ ] Affected source code: http://klikki.fi/adv/wordpress2.html      CVE-2015-3440
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   - [ ] Summary: 
   
