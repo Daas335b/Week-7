@@ -1,5 +1,5 @@
 Project 7 WordPress Pentesting
-Time spent: 10 hours in total
+Time spent: 16 hours in total
 
 ## Pentesting Report
 
@@ -8,10 +8,10 @@ Time spent: 10 hours in total
     - Vulnerability types:  Cross site scripting
     - Tested in version: 4.2
     - Fixed in version: 4.7.5
-  - [ ] GIF Walkthrough: <img src='Week 7xss.gif'/>
+  - [ ] GIF Walkthrough: <img src='put your name here.gif'/>
   - [ ] Steps to recreate: 
- I logged into wordpress as admin.http://wpdistillery.vm/wp-admin
-  I went to a page I created.  In the comment section I wrote the following xss <svg/onload-alert('XSS')
+ as admin.http://wpdistillery.vm/wp-admin
+  I went to a page.  In the comment section I wrote the following
   - [ ] Affected source code: http://klikki.fi/adv/wordpress2.html      CVE-2015-3440
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   - [ ] Summary: 
@@ -19,21 +19,20 @@ Time spent: 10 hours in total
   2. - Vulnerability types:  large Media file with XSS
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: <img src='Largeuploadxss.gif'/>
-  - [ ] Steps to recreate: I downloaded a large image file from the internet.  One that was more than 2mb. I changed the name of the file to what I wanted to inject.  I logged into wordpress as admin.http://wpdistillery.vm/wp-admin and went to the media page where I dragged my large file with the name <svg onload='alert(228)'>
+  - [ ] GIF Walkthrough: <img src='put your file name here.gif'/>
+  - [ ] Steps to recreate: Downloaded a moon image file from the internet that was 3.2mb.  Changed the name of the file .  I logged into wordpress media page and dragged my large file with the name <svg onload='alert(228)'>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
-3. (Required) Vulnerability Name is Denial of Service DOS, CVE-2018-6389
+3. (Required) , CVE-2018-6389
   - [ ] Summary: an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated
     - Vulnerability types:
     - Tested in version:4.2
     - Fixed in version: 4.9
-  - [ ] GIF Walkthrough: <img src='crecords.gif'/>
-  - [ ] Steps to recreate: Went to a site https://baraktawily.blogspot.fr/2018/02/how-to-dos-29-of-world-wide-websites.html to learn how to attack my WordPress site.
- Used the doser.py to attack my WordPress and I put that file on my desktop in Linux.
-  I pasted a long script from the site onto the commandline in Linux but changed the script so that it pointed to my WordPress site.
-  Then I loaded the doser.py and went back to my script.  When I executed the script, I went to WordPress and I found that I couldn't manipulate the site anymore.
+  - [ ] GIF Walkthrough: <img src='put your file name here.gif'/>
+  - [ ] Steps to recreate:Create a file that was larger than 65kb .  Inserted this script at the beginning of the file......
+  Paste my script on the comments section and a sign saying hello wrld came up.
+  
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ## Assets
